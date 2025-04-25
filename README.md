@@ -1,1 +1,9 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/kl-E8VQf)
+El archivo .gitignore sirve para indicarle a Git qué archivos o carpetas debe ignorar (no rastrear). Esto es útil para no subir archivos temporales, binarios, configuraciones locales, etc.
+Es conveniente crearlo al iniciar un proyecto, antes del primer commit.
+Para ignorar el archivo ignorado.txt, simplemente se debe agregar una línea con ese nombre al archivo .gitignore.
+
+Regla para ignorar un archivo gitignore
+ignorado.txt
+*.exe
+*.o
+.vscode/
